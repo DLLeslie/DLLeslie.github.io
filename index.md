@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+# Welcome to Daniel Leslie's GitHub Page
 
-You can use the [editor on GitHub](https://github.com/DLLeslie/DLLeslie.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+## Professional Self-Assessment
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I have had an interest in computers since I got my first computer, the Macintosh. I learned how to build them in high school, make them operational, and troubleshoot them. Serving in the United States Marines, I learned how to troubleshoot and repair basic electronic communications systems. Communications was not my only role, as I was placed as a leader over several groups of various sizes. I learned how to work as a team, how to lead a team, and how to make decisions even under heavy stress. My intrigue of the software that control computers grew with the different software I used in the Marines. 
 
-### Markdown
+My time at Southern New Hampshire University (SNHU) was a great one. Learning the basic coding languages and syntax for each provided me with the foundation of software coding. Learning Python, Java, and C++ was difficult, but my knowledge of each language grew as I learned more advanced concepts. One of those classes was the Data Structures and Algorithms which expanded my knowledge and understanding of data types and algorithms. Algorithms are used for a lot of functions in programming to define rules and limitations for problem solving, data processing, and automated reasoning. Data structures and algorithms streamline and provide intelligence in programming which can give way to smarter computers or machines. Secure Coding was a class where I learned the different types of software defects, bugs, and vulnerabilities. I learned how to use Algorithms to verify data or input to eliminate those vulnerabilities.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+One of the most important classes to me was the Software Development and the Collaboration and Team Project classes. These classes taught the basic system that is used by software development teams. I learned the roles and functions of each member of a software development team and how projects are managed and completed. Collaboration is an important aspect of any development of software. Many team management programs that allow for planning and communication between team members were discussed. I learned how to share projects, perform edits, and submit them to team members so they can see the latest changes. 
 
-```markdown
-Syntax highlighted code block
+The below is a narrative of programs that I completed in my time at SNHU while completing the Computer Science course. One program was originally a binary file reverse engineered into a C++ program that shows basic design and engineering of a program and my use of algorithms and data structures to perform arithmetic operations. The second program was from my Client/Server Development class that implemented databases that could be accessed by a user through a dashboard. The program utilizes a Mongo database through a python script that uses a pymongo driver. The dashboard uses python with html drivers to provides a defined interface. The programs show the structure and coding ability that I have learned among my time at SNHU.
 
-# Header 1
-## Header 2
-### Header 3
+## Software Design and Engineering/Algorithms and Data Structure
 
-- Bulleted
-- List
+I created this artifact by reverse engineering a binary file into a C++ program using Microsoft Visual Studio. The program is a simple arithmetic program that when converted to an executable shows a menu. The menu has 1 for add, 2 for subtract, 3 for multiply, and 4 to exit. The user inputs a selection and two numbers to which the program performs the selected arithmetic for the two numbers. The binary executable showed allowed me to use the program as written. When the user selected to add or multiply the program performed subtraction, and performed addition when subtraction was selected. The program could not handle calculation of numbers that contained a decimal and wouldn’t exit when the user selected to. 
 
-1. Numbered
-2. List
+I started with the menu, added functions that would allow the program to handle a decimal number, and a while statement stated that if the users first number entered 4 to exit the program. The menu selection was created by utilizing if statements. If the user enters 1 then the program performs the addition function, and if the number is not one it continues to another if statement for 2. If the number is not 2 then a third if statement asks if it is 3 and performs the function for the number that meets the statement. The arithmetic functions were changed to perform the actual functions that the user was expecting to be performed. Upon executing, only a menu is shown and can be confusing for a first-time user. I enhanced the program by adding instructions on how to use the program.
 
-**Bold** and _Italic_ and `Code` text
+## Database
 
-[Link](url) and ![Image](src)
-```
+The artifact was created using a template provided in my Client to Server Development class in February 2021. The program utilizes a dashboard to display information from a database that contains data of dogs contained in animal shelters within Austin, TX. To access the database, the dashboard uses a second script to Create, Read, Update, and Delete (CRUD) functions. The script uses python to mongo tool pymongo that allows the script to communicate with databases that utilize the Mongo Database language. I think this artifact shows the ability to integrate and manipulate data contained in databases via other program languages. The program uses html to create a visual dashboard that allows user to open the dashboard and select certain data to view from the database. They can update the data to read correctly and delete data if necessary. The development of the Python script that performed each MongoDB function was easy to create. The dashboard was a learning experience that took a lot of patience and research. Creating the layout of the dashboard was simply with the right resources that allowed me to add an image with a title with different format. The data tables were more difficult to setup and perform the recall of information through the pymongo script to show the data. I then created buttons to allow the user to sort the provided data by type of rescue the dogs were best suited for. The experience allowed me to understand how most shopping sites utilize programming languages with html to access databases of product and show them to customers. 
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+[Software Design and Engineering/Algorithms and Data Structures Artifact](https://github.com/DLLeslie/Reverse-Engineering)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DLLeslie/DLLeslie.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+[Databases Artifact](https://github.com/DLLeslie/CS340-Client-Server-Development)
